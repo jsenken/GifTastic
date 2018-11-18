@@ -5,22 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.0.0/journal/bootstrap.min.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
+    <link rel = "stylesheet" type = "text/css" href = "./assets/style/card.css" />
 </head>
 <body>
-
-    <div id="bballButtons">
-
+    <div class="container">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10 mainTitle">
+                    <h1>Welcome to the Basketball Gif Card Store!</h1>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10 mainTitle">
+                    <h2>Type in a players name below and create a button!</h2>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10 mainTitle">
+                <form id="bballForm">
+                    <label for="playerInput">Type Player's Name Here!</label>
+                        <input type="text" id="playerInput">
+                        <input class="btn btn-secondary" id="addPlayer" type="submit" value="Submit">
+                </form>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10 mainTitle"> Then click the button of the player below to open a pack of basketball gif cards! </div>
+            <div class="col-md-1"></div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10 mainTitle"> Or just pick a player from our list!
+                    <div id="bballButtons"></div>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+        <hr>
+        <div class="row" id="players"></div>
+    
     </div>
 
-    <form id="bballForm">
-        <label for="playerInput">Add a player</label>
-        <input type="text" id="playerInput"></br>
-        <input id="addPlayer" type="submit" value="submit">
-    </form>
 
-    <div id="players">
-        
-    </div>
 
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

@@ -1,0 +1,56 @@
+body{
+    background-color: rosybrown;
+}
+
+.mainTitle{
+    text-align: center;
+}
+
+.background{
+    /* height: 200px;
+    width: 200px; */
+    background-color: antiquewhite;
+    padding: 0px;
+    border: 1px solid black;
+    margin: 2px;
+}
+
+.gif{
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-top: 2px;
+
+
+    /* height: 100%;
+    width:100%; */
+}
+
+.playerImg{
+    height: 200px;
+    width: 200px;
+    align-content: center;
+    border: solid 5px lightblue;
+    padding: 0px;
+    margin: 0px;
+}
+
+.logo{
+    padding: 0px;
+}
+
+.basketball{
+    height: 50px;
+    width:50px;
+    background-color: antiquewhite;
+}
+
+.name{
+    font-family: 'Bungee Shade', cursive;
+    padding: 0px;
+
+}
+
+.card{
+    padding: 0px;
+}
